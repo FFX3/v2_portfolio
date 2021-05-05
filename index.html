@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div id="dynamicNavBar" class="navbar sticky--top">
+            <div id="hideOnScroll" class="navbar__logo">
+                <img id="hideOnScroll" src="images/logo_tall.svg">
+            </div>
+            <nav id="centerOnScroll" class="navbar__navigation">
+                <ul id="removeMarginOnScroll">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a class="--primary-link" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="index_main">
+        <section id="about_me_section">
+            <div id="picture_of_me">
+                <img src="images/picture_of_me.svg">
+            </div>
+            <div id="text_about_me">
+                <h1>Hi, my name is <span class="--purple-text">Justin</span> 👋</h1>
+                <p>
+                    I am an ambitious man from New Brunswick, Canada, looking to debut in the <br>Web-Development industry.
+                </p>
+                <a class="--primary-link" href="">Download My Resume</a>
+            </div>
+        </section>
+        <section class="reasons_why">
+            <h2>
+                <span class="--massive-text-purple">3</span> Reasons, Why I'm The Right Guy For The JOB
+            </h2>
+            <p>Here are 3 reasons why I believe you and your company will benefit from adding me to the team, despite lacking education and experience</p>
+            <div class="reasons_why__cards-wrapper">
+                <div class="--card">
+                    <img src="images/Group 4orange.svg">
+                    <p>I'll keep studying on the side to keep up; I'm here to learn</p>
+                </div>
+                <div class="--card">
+                    <img src="images/Group 6blue.svg">
+                    <p>Being self-taught, I've learned to be a self-starter and an autodidact</p>
+                </div>
+                <div class="--card">
+                    <img src="images/Group 7purple.svg">
+                    <p>I'm willing to take on odd jobs that are not necessarily coding-related</p>
+                </div>
+            </div>
+        </section>
+        <section class="project_section">
+            <h2 class="--center-text">My Projects</h2>
+            <div>
+                <div class="project-container --card">
+                    <div class="project-container__image-container">
+                        <img src="images/Bitmapchess_board_image.png">
+                    </div>
+                    <div class="project-container__info-container">
+                        <div>
+                            <h3>Chess Board</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <a class="--primary-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container --card">
+                    <div class="project-container__image-container">
+                        <img src="images/Bitmappathfinder_image.png">
+                    </div>
+                    <div class="project-container__info-container">
+                        <div>
+                            <h3>Pathfinder</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <a class="--primary-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container --card">
+                    <div class="project-container__image-container">
+                        <img src="images/Bitmaptodo_list_image.png">
+                    </div>
+                    <div class="project-container__info-container">
+                        <div>
+                            <h3>TODO list app</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <a class="--primary-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div>
+                <h2>Contact</h2>
+                <a href="" class="--white-text">
+                    <p><img src="images/Group 2email_icon.svg"> justinmcintyre42@gmail.com</p>
+                </a>
+                <a href="" class="--white-text">
+                    <p><img src="images/Group 2phone_icon.svg"> +1(506)232-2066</p>
+                </a>
+                <a href="" class="--white-text">
+                    <p><img src="images/Group 10linkedIn_icon.svg"> shinobiwannabe</p>
+                </a>
+                <a class="--secondary-link" id="extra-margin">Download My Resume</a>
+            </div>
+            <div class="contact-section__form-wrapper">
+                <form id="contact-form">
+                    <input type="text" placeholder="Name"><br>
+                    <input type="tel" placeholder="Phone Number"><br>
+                    <textarea placeholder="Message"></textarea><br>
+                </form>
+                <div><button class="--secondary-link" from="contact-form" value="Submit">Submit</button></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="">Chess Board</a></li>
+                <li><a href="">Pathfinder</a></li>
+                <li><a href="">TODO list app</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <h2>Socials</h2>
+            <ul>
+                <li><a href="">Codewars</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">FreeCodeCamp</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p class="--center-text">&copy; 2021 Justin McIntyre</p>
+        </div>
+    </footer>
+</body>
+</html>
