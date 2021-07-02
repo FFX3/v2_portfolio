@@ -8,7 +8,7 @@
     /* variables */
     --primary-accent: #5447E5;
     --secondary-accent: #0B152F;
-    --navbar-height: 48px;
+    --navbar-height: 60px;
 }
 
 html, body {
@@ -47,7 +47,7 @@ hr {
     Layouts
     ============== */
 main{
-    padding-top: 166px;
+    padding-top: 60px;
 }
 
 /* about me section */
@@ -319,15 +319,14 @@ main{
     top: 0;
     width: 100%;
     height: var(--navbar-height);
-    padding: 59px 0px 59px 0px;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,243,255,1) 100%);
 }
 .navbar__navigation{
-    float: right;
+    padding-top: 6px;
 }
 
 .navbar ul{
-    margin: 0px 90px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
     text-align: center;
 }
